@@ -1,0 +1,239 @@
+# depslib dependency file v1.0
+1560087803 source:f:\c++-test\abc-algorithm\abczjut\src\cabcfitnessscaling.cpp
+	<cmath>
+	"CABCFitnessScaling.h"
+	"CBeecolony.h"
+	"CHoney.h"
+
+1560045688 f:\c++-test\abc-algorithm\abczjut\include\cabcfitnessscaling.h
+
+1560054230 f:\c++-test\abc-algorithm\abczjut\include\cbeecolony.h
+	<vector>
+	"CHoney.h"
+	"CABCParameter.h"
+	"define.h"
+
+1560054492 f:\c++-test\abc-algorithm\abczjut\include\choney.h
+	<vector>
+	"CABCParameter.h"
+	"define.h"
+
+1560093084 f:\c++-test\abc-algorithm\abczjut\include\cabcparameter.h
+	<map>
+	<string>
+	<vector>
+	"define.h"
+
+1560058954 f:\c++-test\abc-algorithm\abczjut\include\define.h
+
+1560069498 source:f:\c++-test\abc-algorithm\abczjut\main.cpp
+	<iostream>
+	"CABCParameter.h"
+	"CABCEngine.h"
+
+1560069035 source:f:\c++-test\abc-algorithm\abczjut\src\cabcevaluator.cpp
+	<cmath>
+	"CABCEvaluator.h"
+	"CBeebase.h"
+	"CHoney.h"
+
+1560068194 f:\c++-test\abc-algorithm\abczjut\include\cabcevaluator.h
+
+1559449625 f:\c++-test\abc-algorithm\abczjut\include\cabcupdatebee.h
+
+1560094767 source:f:\c++-test\abc-algorithm\abczjut\src\cabcupdatebee.cpp
+	<iostream>
+	"CABCUpdateBee.h"
+	"Bitset.h"
+	"CABCParameter.h"
+	"CRandomgenerator.h"
+	"CBeebase.h"
+	"CABCEvaluator.h"
+	"CABCEngine.h"
+	"CBeecolony.h"
+	"CHoney.h"
+
+1553218468 f:\c++-test\abc-algorithm\abczjut\include\bitset.h
+	<boost/dynamic_bitset.hpp>
+
+1555488378 f:\c++-test\abc-algorithm\abczjut\include\crandomgenerator.h
+
+1560061018 f:\c++-test\abc-algorithm\abczjut\include\cbeebase.h
+	<iostream>
+
+1560053811 f:\c++-test\abc-algorithm\abczjut\include\cabcengine.h
+	<vector>
+
+1560095484 source:f:\c++-test\abc-algorithm\abczjut\src\cbeebase.cpp
+	<time.h>
+	"assert.h"
+	"CBeebase.h"
+	"CBeecolony.h"
+	"CHoney.h"
+	"CABCParameter.h"
+	"CRandomgenerator.h"
+
+1560069203 source:f:\c++-test\abc-algorithm\abczjut\src\cbeecolony.cpp
+	<cmath>
+	<boost/algorithm/string.hpp>
+	<algorithm>
+	<iostream>
+	"CBeecolony.h"
+
+1560067694 source:f:\c++-test\abc-algorithm\abczjut\src\choney.cpp
+	<stdexcept>
+	<iostream>
+	<boost/throw_exception.hpp>
+	"CHoney.h"
+	"assert.h"
+	"CRandomgenerator.h"
+
+1560068268 source:f:\c++-test\abc-algorithm\abczjut\src\cabcengine.cpp
+	<iostream>
+	"CABCEngine.h"
+	"CBeecolony.h"
+	"CBeebase.h"
+	"CABCParameter.h"
+	"CABCFitnessScaling.h"
+	"CABCEvaluator.h"
+	"CABCUpdateBee.h"
+
+1560095261 source:f:\c++-test\abc-algorithm\abczjut\src\cabcparameter.cpp
+	<assert.h>
+	<iostream>
+	"CABCParameter.h"
+
+1560062040 source:f:\c++-test\abc-algorithm\abczjut\src\crandomgenerator.cpp
+	<boost/random.hpp>
+	<time.h>
+	<iostream>
+	<limits>
+	"CRandomgenerator.h"
+
+1560069498 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\main.cpp
+	<iostream>
+	"CABCParameter.h"
+	"CABCEngine.h"
+
+1560093084 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcparameter.h
+	<map>
+	<string>
+	<vector>
+	"define.h"
+
+1560058954 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\define.h
+
+1560243911 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcengine.h
+	<vector>
+
+1560262085 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcengine.cpp
+	<iostream>
+	"CABCEngine.h"
+	"CBeecolony.h"
+	"CBeebase.h"
+	"CABCParameter.h"
+	"CABCFitnessScaling.h"
+	"CABCEvaluator.h"
+	"CABCCommunicationOfBees.h"
+
+1560158916 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cbeecolony.h
+	<vector>
+	"CHoney.h"
+	"CABCParameter.h"
+	"define.h"
+
+1560262844 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\choney.h
+	<vector>
+	"CABCParameter.h"
+	"define.h"
+
+1560252770 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cbeebase.h
+	<iostream>
+
+1560045688 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcfitnessscaling.h
+
+1560245483 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcevaluator.h
+
+1559449625 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcupdatebee.h
+
+1560263021 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcevaluator.cpp
+	<cmath>
+	"CABCEvaluator.h"
+	"CBeebase.h"
+	"CHoney.h"
+
+1560262626 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcfitnessscaling.cpp
+	<cmath>
+	"CABCFitnessScaling.h"
+	"CBeecolony.h"
+	"CHoney.h"
+
+1560304752 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcparameter.cpp
+	<assert.h>
+	<iostream>
+	"CABCParameter.h"
+
+1560135722 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcupdatebee.cpp
+	<iostream>
+	"CABCUpdateBee.h"
+	"Bitset.h"
+	"CABCParameter.h"
+	"CRandomgenerator.h"
+	"CBeebase.h"
+	"CABCEvaluator.h"
+	"CABCEngine.h"
+	"CBeecolony.h"
+	"CHoney.h"
+
+1553218468 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\bitset.h
+	<boost/dynamic_bitset.hpp>
+
+1555488378 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\crandomgenerator.h
+
+1560263498 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cbeebase.cpp
+	<time.h>
+	<cmath>
+	<iostream>
+	"assert.h"
+	"CBeebase.h"
+	"CBeecolony.h"
+	"CHoney.h"
+	"CABCParameter.h"
+	"CRandomgenerator.h"
+
+1560264553 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\choney.cpp
+	<stdexcept>
+	<iostream>
+	<boost/throw_exception.hpp>
+	"CHoney.h"
+	"assert.h"
+	"CRandomgenerator.h"
+
+1560264000 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\crandomgenerator.cpp
+	<boost/random.hpp>
+	<time.h>
+	<iostream>
+	<limits>
+	"CRandomgenerator.h"
+
+1565437868 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cbeecolony.cpp
+	<cmath>
+	<boost/algorithm/string.hpp>
+	<algorithm>
+	<iostream>
+	"CBeecolony.h"
+
+1560155550 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabccommunicationofbees.h
+
+1565436936 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabccommunicationofbees.cpp
+	<iostream>
+	"CABCCommunicationOfBees.h"
+	"Bitset.h"
+	"CABCParameter.h"
+	"CRandomgenerator.h"
+	"CBeebase.h"
+	"CABCEvaluator.h"
+	"CABCEngine.h"
+	"CBeecolony.h"
+	"CHoney.h"
+
