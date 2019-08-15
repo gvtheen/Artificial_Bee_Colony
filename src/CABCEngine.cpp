@@ -11,8 +11,8 @@
 
 namespace ABCZJUT{
 
-CABCEngine::CABCEngine(CABCParameter* mbf)
-:m_pABCParameter(mbf)
+CABCEngine::CABCEngine(CABCParameter* mbf,EVALUATOR_FUN _fun)
+:m_pABCParameter(mbf),m_evalFun(_fun)
 {
     m_pBeeColony=nullptr;
 }
@@ -42,7 +42,7 @@ void CABCEngine::init()
 
   // std::cout << "CABCEngine::init-2!" << std::endl;
 
-   this->m_pEvaluator=new CABCEvaluator();
+   this->m_pEvaluator=new CABCEvaluator(m_evalFun);
    this->m_pFitnessScaling=new CABCFitnessScaling(this->m_pBeeColony);
 
   // std::cout << "CABCEngine::init-3!" << std::endl;

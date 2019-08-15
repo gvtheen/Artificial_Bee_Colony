@@ -1,11 +1,12 @@
-#include <cmath>
+
 #include "CABCEvaluator.h"
 #include "CBeebase.h"
 #include "CHoney.h"
 
 namespace ABCZJUT{
 
-CABCEvaluator::CABCEvaluator()
+CABCEvaluator::CABCEvaluator(EVALUATOR_FUN _fun)
+:m_evalFun(_fun)
 {
     //ctor
 }
@@ -28,20 +29,7 @@ void CABCEvaluator::evaluate(CBeebase* pBee,bool is_1st_run)
    else
        honey = pBee->privateHoney();      //  for other run
 
-   double x1,x2;
-   x1=(*honey)[0];
-   x2=(*honey)[1];
-
-   double result;
-   //result = x1*100+x2*2;
-   result=0.5 + (sin(x1*x1-x2*x2)*sin(x1*x1-x2*x2) - 0.5) \
-                /((1.0+0.001*(x1*x1+x2*x2))*(1.0+0.001*(x1*x1+x2*x2)));
-   honey->setOrigValue(result);
+   honey->setOrigValue((*m_evalFun)(honey->code()));
 }
- double CABCEvaluator::calc(double x1,double x2)
- {
-     return 0.5 + (sin(x1*x1-x2*x2)*sin(x1*x1-x2*x2) - 0.5)/((1+0.001*(x1*x1+x2*x2))*(1+0.001*(x1*x1+x2*x2)));
-     //return x1*100+x2*2;
- }
 
 }

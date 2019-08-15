@@ -18,33 +18,20 @@
 ** OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 **
 ******************************************************************************/
-#ifndef CABCFITNESSSCALING_H
-#define CABCFITNESSSCALING_H
+#ifndef DEFINE_H_INCLUDED
+#define DEFINE_H_INCLUDED
 
-
-namespace ABCZJUT{
-
-class CBeecolony;
-
-class CABCFitnessScaling
-{
-    public:
-        CABCFitnessScaling(CBeecolony*);
-        virtual ~CABCFitnessScaling();
-
-        void run();
-
-    protected:
-        void linearScaling(CBeecolony*);
-		void sigmaTruncScaling(CBeecolony*);
-		void powerLawScaling(CBeecolony*);
-		void noScaling(CBeecolony*);
-
-    private:
-        CBeecolony* m_pBeecolony;
+#include<vector>
+struct VarRangeStruct{
+	double min;
+	double max;
+	double accuracy;
+    VarRangeStruct(double a,double b,double c){
+       min=a;
+       max=b;
+       accuracy=c;
+    }
 };
 
-
-
-}
-#endif // CABCFITNESSSCALING_H
+typedef double (*EVALUATOR_FUN)(const std::vector<double>&);
+#endif // DEFINE_H_INCLUDED

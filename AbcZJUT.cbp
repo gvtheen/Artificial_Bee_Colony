@@ -34,6 +34,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/ABC_define.h" />
 		<Unit filename="include/Bitset.h" />
 		<Unit filename="include/CABCCommunicationOfBees.h" />
 		<Unit filename="include/CABCEngine.h" />
@@ -44,7 +45,6 @@
 		<Unit filename="include/CBeecolony.h" />
 		<Unit filename="include/CHoney.h" />
 		<Unit filename="include/CRandomgenerator.h" />
-		<Unit filename="include/define.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/CABCCommunicationOfBees.cpp" />
 		<Unit filename="src/CABCEngine.cpp" />

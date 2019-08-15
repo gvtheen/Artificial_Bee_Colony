@@ -115,18 +115,19 @@
 	"CABCParameter.h"
 	"CABCEngine.h"
 
-1560093084 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcparameter.h
+1565883538 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcparameter.h
 	<map>
 	<string>
 	<vector>
-	"define.h"
+	"ABC_define.h"
 
 1560058954 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\define.h
 
-1560243911 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcengine.h
+1565884308 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcengine.h
+	"ABC_define.h"
 	<vector>
 
-1560262085 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcengine.cpp
+1565884185 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcengine.cpp
 	<iostream>
 	"CABCEngine.h"
 	"CBeecolony.h"
@@ -136,28 +137,28 @@
 	"CABCEvaluator.h"
 	"CABCCommunicationOfBees.h"
 
-1560158916 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cbeecolony.h
+1565883551 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cbeecolony.h
 	<vector>
 	"CHoney.h"
 	"CABCParameter.h"
-	"define.h"
+	"ABC_define.h"
 
-1560262844 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\choney.h
+1565883557 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\choney.h
 	<vector>
 	"CABCParameter.h"
-	"define.h"
+	"ABC_define.h"
 
 1560252770 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cbeebase.h
 	<iostream>
 
 1560045688 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcfitnessscaling.h
 
-1560245483 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcevaluator.h
+1565884166 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcevaluator.h
+	"ABC_define.h"
 
 1559449625 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\cabcupdatebee.h
 
-1560263021 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcevaluator.cpp
-	<cmath>
+1565884330 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cabcevaluator.cpp
 	"CABCEvaluator.h"
 	"CBeebase.h"
 	"CHoney.h"
@@ -190,7 +191,7 @@
 
 1555488378 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\crandomgenerator.h
 
-1560263498 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cbeebase.cpp
+1565883626 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\cbeebase.cpp
 	<time.h>
 	<cmath>
 	<iostream>
@@ -201,7 +202,7 @@
 	"CABCParameter.h"
 	"CRandomgenerator.h"
 
-1560264553 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\choney.cpp
+1565437894 source:f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\src\choney.cpp
 	<stdexcept>
 	<iostream>
 	<boost/throw_exception.hpp>
@@ -236,4 +237,7 @@
 	"CABCEngine.h"
 	"CBeecolony.h"
 	"CHoney.h"
+
+1565884468 f:\glzhuang-important\computer_study\design_by_c_plus_plus\abc-algorithm\abczjut\include\abc_define.h
+	<vector>
 

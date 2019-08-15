@@ -162,15 +162,8 @@ void CBeebase::SendScoutBees()
 void CBeebase::GreedySelection()
 {
 
-//    if( std::fabs((*m_honey).origValue() - calc((*m_honey)[0],(*m_honey)[1])) > 1.0e-10)
-//           std::cout<<" CBeebase::GreedySelection():ERROR-22222:"<<this->m_index<<" value:"<<(*m_honey).origValue()\
-//                    <<" "<<calc((*m_honey)[0],(*m_honey)[1])<<std::endl;
-
     if(this->m_honey->origValue() < (*m_Beecolony)[this->m_index].origValue()){
        (*m_Beecolony)[this->m_index]=(*m_honey);
-
-//       if((*m_Beecolony)[this->m_index].origValue() != m_honey->origValue())
-//           std::cout<<" ERROR,ERROR,ERROR!!!!\n";
 
        (*m_Beecolony)[this->m_index].setTrail(0);
     }else
